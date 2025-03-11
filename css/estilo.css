@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.header-bg {
+  background-image: url('../img/gifs/nubes.gif'); /* Ruta de la imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  padding: 60px 0; /* Ajusta la altura */
+}
+.main-fondo{
+  background-image: url('../img/gifs/estrellas4.jpg'); /* Ruta de la imagen */
+  background-size: cover;
+  
+  background-repeat: repeat;
+  color: rgb(255, 255, 255);
+  padding: 60px 0; /* Ajusta la altura */
+}
+
+p, a {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* O el peso que prefieras */
+  font-style: normal;
+}
+
+h1, h2, h3{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Cambia según el grosor que necesites */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
