@@ -35,3 +35,40 @@ h1, h2, h3{
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+/*juego*/
+.header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px 0;
+}
+.carta, .mazo, img {
+  width: 120px;
+  height: auto;
+  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.3));
+}
+.btn-custom {
+  background-color: #3a3a3a;
+  color: white;
+  border: 1px solid white;
+}
+.btn-custom:hover {
+  background-color: #5a5a5a;
+}
+.custom-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  clip-path: ellipse(50% 50% at 50% 0%) polygon(0 50%, 0 100%, 100% 100%, 100% 50%);
+}
+/*CAROUSEL INNER */
+.carousel-item img {
+  width: 100%;            /* Las imágenes ocupan todo el ancho del contenedor */
+  height: 450px;           /* Mantiene la relación de aspecto original */
+  object-fit: contain;    /* Asegura que la imagen no se deforme, manteniendo su proporción */
+  max-width: 80%;        /* Asegura que no se expandan más allá del contenedor */
+  background-color: #2c0000;
+}
