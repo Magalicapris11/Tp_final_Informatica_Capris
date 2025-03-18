@@ -22,6 +22,10 @@
   color: rgb(255, 255, 255);
   padding: 60px 0; /* Ajusta la altura */
 }
+/*video desarrolladora*/
+.video-container video {
+  width: 250px;
+  height: 360px;}
 
 p, a {
   font-family: "Cinzel", serif;
